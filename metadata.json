@@ -1,0 +1,10 @@
+{
+  "name": "Sistema de Bilheteria - Ballet",
+  "description": "Sistema de bilheteria e controle de acesso com QR code para espetáculos.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

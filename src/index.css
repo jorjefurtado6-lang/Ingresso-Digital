@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #FDFBF7;
+  --color-brand-surface: #FFFFFF;
+  --color-brand-primary: #5A5A40;
+  --color-brand-hover: #4a4a35;
+  --color-brand-accent: #D4C5B3;
+  --color-brand-text: #2D2926;
+  --color-brand-text-light: #716B64;
+  --color-brand-border: #E9E1D7;
+  --color-brand-success: #4A6741;
+  --color-brand-error: #A64444;
+
+  --font-sans: 'Helvetica Neue', Arial, sans-serif;
+  --font-serif: 'Georgia', serif;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
+  font-family: var(--font-sans);
+}
+
+/* HTML5 QR Code Overrides for cleaner UI */
+#reader {
+  border: none !important;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  background: var(--color-brand-surface);
+}
+
+#reader__dashboard_section_csr button {
+  background-color: var(--color-brand-primary) !important;
+  color: white !important;
+  border: none !important;
+  padding: 0.75rem 1.5rem !important;
+  border-radius: 50px !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  margin: 10px 0 !important;
+}
+
+#reader__dashboard_section_swaplink {
+  color: var(--color-brand-text-light) !important;
+  text-decoration: none !important;
+  margin-top: 10px !important;
+}
+
+#reader__camera_selection {
+  padding: 0.5rem !important;
+  border-radius: 0.5rem !important;
+  border: 1px solid var(--color-brand-border) !important;
+  margin-bottom: 10px !important;
+  max-width: 100% !important;
+}
